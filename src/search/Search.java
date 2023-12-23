@@ -4,16 +4,13 @@ import java.util.ArrayList;
 
 import model.SMModel;
 import model.StudyProgram;
-import view.ControllerView;
 import view.SMView;
 
 public class Search {
 	SMView view;
-    ControllerView controller;
     SMModel model;
 
-    public Search(ControllerView controller, SMModel model, SMView view) {
-        this.controller = controller;
+    public Search(SMModel model, SMView view) {
         this.view = view;
         this.model = model;
     }

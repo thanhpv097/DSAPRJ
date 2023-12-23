@@ -38,7 +38,7 @@ public class ControllerView {
 		saveFile = new SaveFile(this);
 		sortByScore = new SortByScore(this);
 		sortByTuition = new SortByTuition(this);
-		search = new Search(this, model, view);
+		search = new Search(model, view);
 		root = model.getProgram();
 	}
 	
